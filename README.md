@@ -20,7 +20,7 @@ Don't just take my word for it though -- here's what others have to say
 
 ## Course material
 
-* Section 1 - Install several versions of R and learn some basic commands
+* [Section 1](./Section1.md) - Install several versions of R and learn some basic commands
 * Section 2 - R Studio : A popular user interface for R
 * Section 3 - The Importance of packages
 * Section 4 - Jupyter Notebook
