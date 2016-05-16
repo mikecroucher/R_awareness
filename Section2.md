@@ -9,7 +9,7 @@ Launch R 3.3.0 and run the following lines of code to produce a basic scatter pl
     plot(x,y)
 
 A colleague tells you that there is a better function for plotting.
-She shows you on her machine. It looks nicer so you try it yourself:
+She shows you on her machine and since you think it looks much nicer than the basic **plot**, you try it on your machine:
 
     qplot(x)
     Error: could not find function "qplot"
@@ -57,7 +57,7 @@ You can get help on the package with
 
     help(package=ggplot2)
 
-To see a list of functions in the ggplot2 package
+Once you've loaded the **ggplot2** package, do the following to see the list of functions it provides.
 
     ls(pos = "package:ggplot2")  
 
@@ -88,15 +88,29 @@ This allows other researchers to make direct use of this research. In turn, this
 
 #### Exercise
 
-Launch R 3.3.0 and install Phil Champman's package
+* Launch R 3.3.0 and install Phil Champman's package
 
-  install.packages('IncucyteDRC')
-  library(IncucyteDRC)
-  vignette("Overview")
+    install.packages('IncucyteDRC')
+    library(IncucyteDRC)
+    vignette("Overview")
 
-Now install R version 3.1.0 if you haven't done so already. This is the most recent version available (So I am told) on Manchester's managed desktop.
-Try installing Phil Chapman's package in R version 3.1.0.
+* Now install R version 3.1.0 if you haven't done so already. This is the most recent version available (So I am told) on Manchester's managed desktop.
+* Try installing Phil Chapman's package in R version 3.1.0.
 
 ### R Commander, the R interface that's a package
 
-### Repositories other than CRAN
+[R Commander](http://www.rcommander.com/) is a Graphical User Interface for R. You may be asked by some users to install it. It is actually a package so you can install it from within R.
+
+    install.packages('Rcmdr')
+
+### A list of repositories
+
+* [CRAN](https://cran.r-project.org/)) - The standard repository for R packages.
+* [Bioconductor](http://bioconductor.org/) - The main repository for the R Bioinformatics community.
+* [R-Forge](http://r-forge.r-project.org/) and [RForge](http://www.rforge.net/) - A package development environment and repository.
+
+### Package Function reference
+
+* `install.packages("foo")` - Install the package called 'foo'
+* `installed.packages()` - Show installed packages
+* `chooseCRANmirror()` - Ask the user to select a CRAN mirror
