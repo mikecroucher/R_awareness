@@ -3,6 +3,10 @@
 This is designed to be a self-directed study session where you work through the material at your own pace.
 It is designed to give IT Support staff an idea of what R can do along with an outline of the eco-system of tools that exist alongside it.
 
+## Presentation
+
+The introductory presentation that goes with this material can be found at [http://mikecroucher.github.io/R_awareness/#/ ](http://mikecroucher.github.io/R_awareness/#/)
+
 ## What is R?
 
 R is a free, open-source programming language that has very strong support for statistics. It was originally developed as an open source implementation of the [S Programming language](https://en.wikipedia.org/wiki/S_(programming_language)).
@@ -23,3 +27,4 @@ Don't just take my word for it though -- here's what others have to say
 * Section 5 - Revolutions R Open - A faster R from Microsoft
 * Section 6 - R in the cloud: SageMathCloud
 * Section 7 - How R interacts with other applications.
+* Section 8 - Summary of what's been covered
