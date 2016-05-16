@@ -38,7 +38,7 @@ To see which packages are installed, execute
 
 ### Using an installed package
 
-We've installed the **ggplot2** package but we need to do a little more in order to use it. We nned to use the **library** function
+We've installed the **ggplot2** package but we need to do a little more in order to use it. We need to use the **library** function
 
     library(ggplot2)
 
@@ -52,3 +52,51 @@ The ggplot2 package is a big deal! It's *much* more than this simple function. I
 There have been entire books written about this one package
 
 <a rel="nofollow" href="http://www.amazon.co.uk/gp/product/331924275X/ref=as_li_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=331924275X&linkCode=as2&tag=walkingrandom-21"><img border="0" src="http://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=331924275X&Format=_SL250_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=walkingrandom-21" ></a><img src="http://ir-uk.amazon-adsystem.com/e/ir?t=walkingrandom-21&l=as2&o=2&a=331924275X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+You can get help on the package with
+
+    help(package=ggplot2)
+
+To see a list of functions in the ggplot2 package
+
+    ls(pos = "package:ggplot2")  
+
+That's just one package! At the time of writing, there are over 8400 of them and the number is increasing all the time.
+
+### Packages are a big deal
+
+MATLAB has it's toolboxes, R has packages. Thousands of them! At the time of writing, Monday 16th May 2016, there are 8409 in the CRAN https://cran.r-project.org/web/packages/ and this number is continuously increasing.
+
+#### Packages provide extra Functionality
+
+Packages provide extra functionality that's not in base R. Functionality that many people use!  ggplot2 is one of the 50+ packages written by prolific coder, Hadley Wickham. These packages are so popular that they are referred to as The Hadleyverse by the community.
+
+* [The Hitchhiker's Guide to the Hadleyverse](http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/) - An overview of these important packages.
+
+A properly functioning R installation must allow users to install and update packages. If they are provided with a system that is too locked down, such as a managed desktop or an overly-strict install on a High Performance Computing platform, users will be greatly inconvenienced.
+
+#### Dissemination of research
+
+Since anyone can author and publish a package, they provide a mechanism for researchers to disseminate their research. Here are a couple of examples from The University of Manchester.
+
+* https://cran.r-project.org/web/packages/jmcm/index.html - jmcm: Joint Mean-Covariance Models using 'Armadillo' and S4 by [Jianxin.pan](http://www.manchester.ac.uk/research/jianxin.pan/)
+* https://cran.r-project.org/web/packages/IncucyteDRC/IncucyteDRC.pdf - Dose Response Curves from Incucyte Proliferation Assays by [Phil Chapman](https://www.researchgate.net/profile/Phil_Chapman3)
+
+This allows other researchers to make direct use of this research. In turn, this leads to additional citations, increased impact and increased likelihood of future funding.
+
+**If we make it difficult for researchers to use R packages on our IT systems, we are directly harming teaching and research that relies on R**
+
+#### Exercise
+
+Launch R 3.3.0 and install Phil Champman's package
+
+  install.packages('IncucyteDRC')
+  library(IncucyteDRC)
+  vignette("Overview")
+
+Now install R version 3.1.0 if you haven't done so already. This is the most recent version available (So I am told) on Manchester's managed desktop.
+Try installing Phil Chapman's package in R version 3.1.0.
+
+### R Commander, the R interface that's a package
+
+### Repositories other than CRAN
