@@ -89,11 +89,11 @@ This allows other researchers to make direct use of this research. In turn, this
 #### Exercise
 
 * Launch R 3.3.0 and install Phil Champman's package
-
-    install.packages('IncucyteDRC')
-    library(IncucyteDRC)
-    vignette("Overview")
-
+```
+install.packages('IncucyteDRC')
+library(IncucyteDRC)
+vignette("Overview")
+```
 * Now install R version 3.1.0 if you haven't done so already. This is the most recent version available (So I am told) on Manchester's managed desktop.
 * Try installing Phil Chapman's package in R version 3.1.0.
 
