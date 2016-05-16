@@ -1,26 +1,8 @@
-# R Awareness for IT Staff
-
-This is designed to be a self-directed study session where you work through the material at your own pace.
-It is designed to give IT Support staff an idea of what R can do along with an outline of the eco-system of tools that exist alongside it.
-
-## What is R?
-
-R is a free, open-source programming language that has very strong support for statistics. It was originally developed as an open source implementation of the [S Programming language](https://en.wikipedia.org/wiki/S_(programming_language)).
-It is used extensively in research and industry for areas such as data analysis, statistics, machine learning, bioinformatics, simulation, linguistics and much more.
-
-With over [8000 freely available add-on packages](https://cran.r-project.org/web/packages/) that provide extensive additional functionality, R will probably have something that can help your research.
-
-Don't just take my word for it though -- here's what others have to say
-
-* [Why use R? Five reasons](http://www.econometricsbysimulation.com/2014/03/why-use-r-five-reasons.html) - From the 'Econometrics By Simulation' blog
-
 ## Installing R on Windows
 
 R is available for Windows, Mac OS X and Linux. For this tutorial, however, we will focus on using R in Windows since that's what the majority of users will be running.
 
 Our first task, therefore, is to install R.
-
-*  Download link for Window: https://cran.r-project.org/bin/windows/base/
 
 It is possible to install several versions of R at once.
 They all co-exist side-by-side.
@@ -28,6 +10,8 @@ They all co-exist side-by-side.
 ### Exercise 1
 * Download and install the latest version of R for Windows (currently 3.3.0)
 * Additionally, download and install versions 3.2.5 and 2.11.1. For the sake of a future exercise, ensure you leave 2.11.1 until last.
+
+*  Download link for Window: https://cran.r-project.org/bin/windows/base/
 
 ### Exercise 2
 * Launch R version 3.3.0 and work through the sections **Simple commands and calculations** and **getting help**.
