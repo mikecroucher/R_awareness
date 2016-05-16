@@ -28,7 +28,7 @@ There are lots of mirrors for the CRAN and R will ask you which one you want to 
 Note that the **ggplot2** package depends on several other packages. These are automatically downloaded and installed as well.
 Thanks to this mechanism, it is possible for a user to install hundreds of megabytes of pre-requisite packages from just one install command.
 
-Note: The user doesn't need admin rights for these installs but they will need somewhere they can write to in order to create a **personal library**.
+Note: The user doesn't need admin rights for these installs but they will need somewhere they can write to in order to create a **personal library**. They will automatically be prompted to do so if they do not have the required permissions to write to write to a central location.
 
 ### Which packages are installed?
 
@@ -42,7 +42,7 @@ We've installed the **ggplot2** package but we need to do a little more in order
 
     library(ggplot2)
 
-We can now use all of the functions in the ggplot2 package - one of which is the qplot2 function.
+We can now use all of the functions in the ggplot2 package - one of which is the **qplot2** function.
 
     qplot(x,y)
 
@@ -105,7 +105,7 @@ vignette("Overview")
 
 ### A list of repositories
 
-* [CRAN](https://cran.r-project.org/)) - The standard repository for R packages.
+* [CRAN](https://cran.r-project.org/) - The standard repository for R packages.
 * [Bioconductor](http://bioconductor.org/) - The main repository for the R Bioinformatics community.
 * [R-Forge](http://r-forge.r-project.org/) and [RForge](http://www.rforge.net/) - A package development environment and repository.
 
