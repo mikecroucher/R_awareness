@@ -11,7 +11,7 @@ They all co-exist side-by-side.
 * Download and install the latest version of R for Windows (currently 3.3.0)
 * Additionally, download and install versions 3.2.5 and 2.11.1. For the sake of a future exercise, ensure you leave 2.11.1 until last.
 
-*  Download link for Window: https://cran.r-project.org/bin/windows/base/
+*  Download link for Windows: https://cran.r-project.org/bin/windows/base/
 
 ### Exercise 2
 * Launch R version 3.3.0 and work through the sections **Simple commands and calculations** and **getting help**.
