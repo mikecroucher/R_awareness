@@ -26,3 +26,9 @@ Open the latest version of R and enter the following commands
 Close R and open the Jupyter notebook interface again. Now, when you click on **New** you should also have the option to open an R notebook.
 
 <img src="./images/r_notebook.png" width="200x">
+
+## Exercise
+
+Open a new Jupyter notebook with an R kernel and execute the following command to download an example notebook.
+
+    download.file('https://github.com/mikecroucher/R_awareness/blob/master/code/section4/R-notebook-example.ipynb','./R-notebook-example.ipynb')
