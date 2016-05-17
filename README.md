@@ -24,7 +24,7 @@ Don't just take my word for it though -- here's what others have to say
 * [Section 2](./Section2.md) - The Importance of packages
 * [Section 3](./Section3.md) - R Studio : A popular user interface for R
 * [Section 4](./Section4.md) - Jupyter Notebook
-* Section 5 - R in the cloud: SageMathCloud
+* [Section 5](./Section5.md) - R in the cloud: SageMathCloud
 * Section 6 - Revolutions R Open - A faster R from Microsoft
 * Section 7 - How R interacts with other applications
 * Section 8 - The impact of restrictive environments
