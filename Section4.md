@@ -25,4 +25,4 @@ Open the latest version of R and enter the following commands
 
 Close R and open the Jupyter notebook interface again. Now, when you click on **New** you should also have the option to open an R notebook.
 
-![](./images/r_notebook.png)
+<img src="./images/r_notebook.png" width="200x">
