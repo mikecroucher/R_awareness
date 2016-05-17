@@ -29,6 +29,12 @@ Close R and open the Jupyter notebook interface again. Now, when you click on **
 
 ## Exercise
 
+We will use R in the notebook to download an example notebook from github.
+
 Open a new Jupyter notebook with an R kernel and execute the following command to download an example notebook.
 
-    download.file('https://github.com/mikecroucher/R_awareness/blob/master/code/section4/R-notebook-example.ipynb','./R-notebook-example.ipynb')
+    download.file('https://github.com/mikecroucher/R_awareness/raw/master/code/section4/R-notebook-example.ipynb','./R-notebook-example.ipynb')
+
+You will be able to open the file **R-notebook-example.ipynb** by clicking on the **Home** Tab of the notebook in the web browser.
+
+The example notebook contains an example of some [**Markdown Text**](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html) and some executable code for you to play with.
