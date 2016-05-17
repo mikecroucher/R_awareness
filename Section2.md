@@ -123,3 +123,4 @@ Launch it by loading the library in R
 * `install.packages("foo")` - Install the package called 'foo'
 * `installed.packages()` - Show installed packages
 * `chooseCRANmirror()` - Ask the user to select a CRAN mirror
+* `available.packages()` - List packages available on your selected CRAN repo. By default, it only returns packages for your OS and version of R.
