@@ -1,4 +1,4 @@
-## R Studio
+## R Studio (and some more R)
 
 R Studio is an extremely popular interface to R that makes it much more pleasant to use.
 It is also free!
@@ -45,7 +45,7 @@ Why can't you proceed?
 
 The point of these exercises is to show that R doesn't exist in a vacuum. A properly functioning R installation requires several different applications to be installed.
 
-### Exercise 4
+### Learning some more R
 
 As an excuse to spend some time in RStudio, we'll learn some more basic R commands. Work through the sections below, entering the commands into RStudio.
 
