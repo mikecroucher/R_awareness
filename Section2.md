@@ -103,6 +103,15 @@ vignette("Overview")
 
     install.packages('Rcmdr')
 
+Launch it by loading the library in R
+
+    library(Rcmdr)
+
+**Exercise**
+
+ * Install and launch R Commander in R version 3.3.0
+ * Now try installing and launching it in R version 3.2.2 (3.2.2 was released in August 2015)
+
 ### A list of repositories
 
 * [CRAN](https://cran.r-project.org/) - The standard repository for R packages.
