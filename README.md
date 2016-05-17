@@ -22,7 +22,7 @@ Don't just take my word for it though -- here's what others have to say
 
 * [Section 1](./Section1.md) - Install several versions of R and learn some basic commands
 * [Section 2](./Section2.md) - The Importance of packages
-* Section 3 - R Studio : A popular user interface for R
+* [Section 3](./Section3.md) - R Studio : A popular user interface for R
 * Section 4 - Jupyter Notebook
 * Section 5 - Revolutions R Open - A faster R from Microsoft
 * Section 6 - R in the cloud: SageMathCloud
