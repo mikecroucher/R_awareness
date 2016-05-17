@@ -12,7 +12,7 @@ Project Jupyter is written in Python so we first need to install Python. The rec
 * Launch the Juptyter notebook. You can either use the start menu item or enter `jupyter notebook` in a CMD prompt
 * The first step to opening a new notebook is to click on **New** on the top right hand side of the notebook interface. Note that the only kernel that is available is Python.
 
-![](./images/python_notebook.png)
+<img src="./images/python_notebook.png" width="200x">
 
 * We need to install the connector between R and the notebook. This is provided by an R package called [IRkernel](https://github.com/IRkernel/IRkernel). IRkernel is not yet available on CRAN so we need to install it directly from github.
 
