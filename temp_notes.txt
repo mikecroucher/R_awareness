@@ -1,0 +1,11 @@
+> download.file('https://github.com/mikecroucher/R_awareness/raw/master/code/section6/matmul.r' , './matmul.r')
+
+Open the file matmul.r in RStudio by clicking on it in the **Files** pane
+Run it by clicking on **source** in the **matmul.r** window
+
+Note which version of R is being used and note the time.
+On my laptop, the matrix multiply took 1.5 seconds with Microsost r open 3.2.4
+
+The open source version of R 3.2.4 took 78.62 seconds
+
+The code kingsdream.r took 4.2 seconds in both versions of R
