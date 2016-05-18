@@ -9,6 +9,7 @@ It has become extremely popular in the data science community. A recent prominen
 Project Jupyter is written in Python so we first need to install Python. The recommended version is Anaconda Python.
 
 * Install Anaconda Python 64 bit. Either 2.7 or 3.5 is fine. https://www.continuum.io/downloads
+* The Jupyter notebook requires a modern web browser. Internet Explorer is not good enough! 
 * Launch the Juptyter notebook. You can either use the start menu item or enter `jupyter notebook` in a CMD prompt
 * The first step to opening a new notebook is to click on **New** on the top right hand side of the notebook interface. Note that the only kernel that is available is Python.
 
