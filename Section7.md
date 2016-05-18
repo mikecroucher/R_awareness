@@ -24,7 +24,7 @@ Mathematica has an in-built interface to R: [RLink](https://reference.wolfram.co
 
 It allows you to combine R code with Mathematica code.
 
-![Mathematica and R](R_Mathematica.png)
+![Mathematica and R](./images/R_Mathematica.png)
 
 # R Tools for Visual Studio
 
@@ -37,7 +37,7 @@ It allows you to combine R code with Mathematica code.
 The Numerical Algorithms Group (NAG) Library is a commercial numerical library containing 1700+ functions. It is site licensed for use by staff and students at Manchester and Sheffield.
  It's written in C and Fortran and can be used in R
  
-![NAG and R](NAG_R.png)
+![NAG and R](./images/NAG_R.png)
 
 # Origin Pro
 
