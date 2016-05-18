@@ -20,7 +20,7 @@ Don't just take my word for it though -- here's what others have to say
 
 ## Course material
 
-The material assumes that you are staring with a clean version of Windows (in a VM perhaps) that has nothing installed.
+The material assumes that you are starting with a clean version of Windows (in a VM perhaps) that has nothing installed.
 
 * [Section 1](./Section1.md) - Install several versions of R and learn some basic commands
 * [Section 2](./Section2.md) - The Importance of packages
