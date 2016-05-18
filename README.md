@@ -26,6 +26,6 @@ Don't just take my word for it though -- here's what others have to say
 * [Section 4](./Section4.md) - Jupyter Notebook
 * [Section 5](./Section5.md) - R in the cloud: SageMathCloud
 * [Section 6](./Section6.md) - Revolution R Open - A faster R from Microsoft
-* Section 7 - How R interacts with other applications
+* [Section 7](./Section7.md) - How R interacts with other applications
 * Section 8 - The impact of restrictive environments
 * Section 9 - Summary of what's been covered
