@@ -1,4 +1,7 @@
 library(tictoc)
+# Slightly modified version of the original by Mike Hewnar
+# http://hewner.com/2012/10/09/making-simple-fractals-in-r/
+
 
 tic()
 a <- -0.966918
