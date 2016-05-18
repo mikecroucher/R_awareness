@@ -40,4 +40,75 @@ This downloads a program that generates two 5000x5000 matrices and multiplies th
 
 ![Matrix multiply in R Studio](./images/matmul_rs.png)
 
+* Note the time it took. On my laptop, running Windows 10, it took 1.5 seconds.
+* Switch the version of R used by R Studio to the standard R 3.2.4 and repeat the above. You'll need to restart R Studio
+
+## Example times
+On my quad-core laptop with an Intel Haswell CPU, running Windows 10, I got the following results
+
+* Microsoft R Open 3.2.4 - 1.5 seconds
+* Standard R 3.2.4 - 78.6 seconds
+
+Over a 50 times speed-up just by switching the version of R used.
+
+If you try this exercise in different operating systens, you'll find different results. The Mac version of standard R is significantly faster than the Windows version for example.
+
+## Scope of the accelerated functions
+
+It's important to note that the only functions that are accelerated are linear algebra-related functions. These include things like matrix multiplication, cholesky factorisation, principal components analysis and linear discriminant analysis.
+
+## Exercise - Example code that isn't accelerated
+
+An example of some code where Microsoft R Open doesn't provide any acceleration is shown below.
+
+```
+library(tictoc)
+# Slightly modified version of the original by Mike Hewnar
+# http://hewner.com/2012/10/09/making-simple-fractals-in-r/
+
+tic()
+a <- -0.966918
+b <- 2.879879
+c <- .765145
+d <- .744728
+pointsToPlot <- 100000
+
+
+x <- .1
+y <- .1
+allXs = rep(0,pointsToPlot)
+allYs = rep(0,pointsToPlot)
+for(i in 1:pointsToPlot) {
+  newx <- sin(y*b) + c*sin(x*b)
+  newy <- sin(x*a) + d*sin(y*a)
+  x <- newx
+  y <- newy
+  allXs[i] <- x
+  allYs[i] <- y
+}
+toc()
+
+plot(allXs, allYs, pch=".", col="red",
+     main="Strange Attractor: King's Dream")
+```
+
+Run this in R Studio using both standard R and Microsoft R open and confirm that there isn't any real difference. 
+
+On my machine, both took about 4.2 seconds.  
+
+Either copy and paste the above or download it using
+
+```
+download.file(
+'https://raw.githubusercontent.com/mikecroucher/R_awareness/master/code/section6/kings_dream.r',
+'kings_dream.r')
+
+```
+
+## More about Microsoft R Open
+
+Microsoft R Open contains more enhancements than those we've explored today. The most prominent are related to reproducible research. 
+
+See https://mran.microsoft.com/documents/rro/reproducibility/ for more details
+
 
