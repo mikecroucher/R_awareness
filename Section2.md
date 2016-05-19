@@ -88,7 +88,7 @@ This allows other researchers to make direct use of this research. In turn, this
 
 #### Exercise
 
-* Launch R 3.3.0 and install Phil Champman's package
+* Launch R 3.3.0 and install Phil Chapman's package
 ```
 install.packages('IncucyteDRC')
 library(IncucyteDRC)
