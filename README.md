@@ -17,6 +17,7 @@ With over [8000 freely available add-on packages](https://cran.r-project.org/web
 Don't just take my word for it though -- here's what others have to say
 
 * [Why use R? Five reasons](http://www.econometricsbysimulation.com/2014/03/why-use-r-five-reasons.html) - From the 'Econometrics By Simulation' blog
+* [The Popularity of Data Analysis Software](http://r4stats.com/articles/popularity/) - Compares R with SPSS, SAS, MATLAB etc
 
 ## Course material
 
