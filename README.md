@@ -32,3 +32,10 @@ The material assumes that you are starting with a clean version of Windows (in a
 * [Section 5](./Section5.md) - R in the cloud: SageMathCloud
 * [Section 6](./Section6.md) - Revolution R Open - A faster R from Microsoft
 * [Section 7](./Section7.md) - How R interacts with other applications
+
+## License
+
+This work is licensed under CC-BY 3.0.
+
+* Human readable description of the license - https://creativecommons.org/licenses/by/3.0/
+* Legal text of the license - https://raw.githubusercontent.com/mikecroucher/R_awareness/master/license.txt
