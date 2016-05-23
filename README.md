@@ -3,6 +3,8 @@
 This is designed to be a self-directed study session where you work through the material at your own pace.
 It is designed to give IT Support staff an idea of what R can do along with an outline of the eco-system of tools that exist alongside it.
 
+* It was delivered to a group of IT support staff and Research Software Engineers at University of Manchester on Friday 20th May 2016
+
 ## Presentation
 
 The introductory presentation that goes with this material can be found at [http://mikecroucher.github.io/R_awareness/#/ ](http://mikecroucher.github.io/R_awareness/#/)
